@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GistReader</string>
+    <string name="title_activity_gist_commenter">Gist Commenter</string>
+</resources>
