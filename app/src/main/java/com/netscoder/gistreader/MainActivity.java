@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
             GetJsonObject report=new GetJsonObject(this.getApplicationContext(),gist_url,null);
             report.getResponse(new VolleyCallback() {
-
+                
                 @Override
                 public void onSuccess(JSONObject myGist) {
                     pDialog.hide();
